@@ -42,6 +42,8 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: #333;
+  text-decoration: none;
 }
 a:active,
 a:hover {
@@ -619,4 +621,7 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+.social-links{
+  list-style-type: none;
 }
