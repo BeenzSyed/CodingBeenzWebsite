@@ -5,10 +5,11 @@ import './menu.css';
 
 const Menu = () => (
         <div>
-            <ul>
-                <li><Link to="/contact">Contact</Link></li>
-                <li><Link to="/blog">Blog</Link></li>
-                <li><Link to="/">Home</Link></li>
+            <ul class="menu">
+                <li class="menu-li"><Link to="/contact">Contact</Link></li>
+                <li class="menu-li"><Link to="/uses">What I Use</Link></li>
+                <li class="menu-li"><Link to="/blog">Blog</Link></li>
+                <li class="menu-li"><Link to="/">Home</Link></li>
             </ul>
         </div>
 )

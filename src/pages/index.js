@@ -10,11 +10,10 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`computer science`, `coding`, `gatsby`]} />
     <h1>Welcome!</h1>
     <p>Learn about computer science concepts here!!</p>
-    {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link> */}
   </Layout>
 )
 
-export default IndexPage
+export default IndexPage;
