@@ -8,11 +8,14 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`computer science`, `coding`, `gatsby`]} />
-    <h1>Welcome!</h1>
-    <p>Learn about computer science concepts here!!</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <section class="center-aligned">
       <Image />
-    </div>
+      <div class="text">
+        <h1>Welcome!</h1>
+        <p>Learn about computer science concepts here!!</p>
+      </div>
+    </section>
+
   </Layout>
 )
 
