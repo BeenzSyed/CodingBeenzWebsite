@@ -4,11 +4,11 @@ import { Link } from "gatsby"
 
 const Menu = () => (
         <div class="menu">
-            <ul class="menu-ul">
-                <li class="menu-li"><Link to="/contact">Contact</Link></li>
-                <li class="menu-li"><Link to="/uses">What I Use</Link></li>
-                <li class="menu-li"><Link to="/blog">Blog</Link></li>
-                <li class="menu-li"><Link to="/">Home</Link></li>
+            <ul>
+                <li><Link to="/blog">Blog</Link></li>
+                <li><Link to="/uses">Setup</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/about">About</Link></li>
             </ul>
         </div>
 )

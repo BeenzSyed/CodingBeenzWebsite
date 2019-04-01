@@ -13,10 +13,6 @@ const IndexPage = ({ data }) => (
   <StyledBackgroundSection>
       <Layout>
       <SEO title="Home" keywords={[`computer science`, `coding`, `gatsby`]} />
-        <h1>Hi people</h1>
-        <p>
-          Welcome to the <code>gatsby-background-image</code> test site.
-        </p>
       </Layout>
     </StyledBackgroundSection>
   </>
