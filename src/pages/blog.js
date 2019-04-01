@@ -8,7 +8,6 @@ import Layout from "../components/layout"
 const BlogPage = ({data}) => {
     return (
         <Layout>
-        <div>
             <h1>Latest Post</h1>
             {data.allMarkdownRemark.edges.map(post => (
                 <div key={post.node.id}>
@@ -22,7 +21,6 @@ const BlogPage = ({data}) => {
                     <hr />
                 </div>
             ))}
-        </div>
         </Layout>
     )
 }

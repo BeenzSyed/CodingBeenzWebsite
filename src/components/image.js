@@ -26,7 +26,12 @@ const Image = () => (
         }
       }
     `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
+    render={data => (
+      <>
+      <Img class="bg" fluid={data.placeholderImage.childImageSharp.fluid} />
+    </>
+    )
+  }
   />
 )
 

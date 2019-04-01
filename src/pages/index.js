@@ -4,19 +4,24 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import StyledBackgroundSection from "../components/backgroundimage"
+import Menu from "../components/menu"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={[`computer science`, `coding`, `gatsby`]} />
-    <section class="center-aligned">
-      <Image />
-      <div class="text">
-        <h1>Welcome!</h1>
-        <p>Learn about computer science concepts here!!</p>
-      </div>
-    </section>
+// import BgImage from "../components/bgimage";
 
-  </Layout>
-)
+
+const IndexPage = ({ data }) => (
+  <>
+  <StyledBackgroundSection>
+      <Layout>
+      <SEO title="Home" keywords={[`computer science`, `coding`, `gatsby`]} />
+        <h1>Hi people</h1>
+        <p>
+          Welcome to the <code>gatsby-background-image</code> test site.
+        </p>
+      </Layout>
+    </StyledBackgroundSection>
+  </>
+);
 
 export default IndexPage;

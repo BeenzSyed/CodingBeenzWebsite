@@ -6,7 +6,9 @@ import Layout from "../components/layout"
 const UsesPage = () => {
     return (
         <Layout>
-        <div>
+        {/* <div style={{
+            paddingTop: `10%`,
+            }}> */}
             <ul className="uses-links">
                 <li>Editor - <a href="https://code.visualstudio.com/">VSCode</a> with the Cobalt2 theme</li>
                 <li>Termimal - <a href="https://hyper.is/">Hyper</a> with the Verminal theme</li>
@@ -15,7 +17,7 @@ const UsesPage = () => {
                 <li>Notes - <a href="https://evernote.com/">Evernote</a></li>
                 <li>Organization/Track to do's - <a href="https://trello.com">Trello</a></li>
             </ul>
-        </div>
+        {/* </div> */}
         </Layout>
     )
 }
