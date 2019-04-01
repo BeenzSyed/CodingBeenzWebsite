@@ -7,8 +7,6 @@ import SEO from "../components/seo"
 import StyledBackgroundSection from "../components/backgroundimage"
 import Menu from "../components/menu"
 
-// import BgImage from "../components/bgimage";
-
 
 const IndexPage = ({ data }) => (
   <>
