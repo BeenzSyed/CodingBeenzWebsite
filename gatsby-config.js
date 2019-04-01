@@ -38,9 +38,9 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Mrs Sheppards`,
           `Open Sans`,
           `Montserrat`,
+          `VT323`,
         ]
       },
     },

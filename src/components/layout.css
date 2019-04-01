@@ -622,10 +622,11 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
 .social-links{
   list-style-type: none;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   color: #71637D;
 }
 
@@ -667,4 +668,12 @@ pre tt:after {
 
 .footer {
   margin-top: auto;
+  color: #BEBEBE;
+  margin-bottom: 10px;
+}
+
+.header a {
+  color: #BEBEBE;
+  font-family: 'VT323', sans-serif;
+  font-size: 60px;
 }

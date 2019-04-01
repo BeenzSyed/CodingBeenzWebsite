@@ -19,8 +19,8 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <div class="main-container">
-          <Menu class="menu" />
-          <Header class="header" siteTitle={data.site.siteMetadata.title} />
+          <Menu />
+          <Header siteTitle={data.site.siteMetadata.title} />
           <main>{children}</main>
           <footer class="footer">
               © {new Date().getFullYear()}, CodingBeenz
