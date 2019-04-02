@@ -623,19 +623,25 @@ pre tt:after {
   }
 }
 
+/* contact page*/
 .social-links{
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  margin: 0;
+}
+
+.social-links li a {
   color: #71637D;
 }
 
+/* setup page*/
 .uses-links a{
   color: #71637D;
   text-decoration: none;
   border-bottom: 2px solid #551A8B;
 }
 
+/* main container */
 .main-container {
   display: flex;
   flex-direction: column;
@@ -643,6 +649,7 @@ pre tt:after {
   min-height: 100vh;
 }
 
+/* menu component */
 .menu {
   margin-top: 30px;
 }
@@ -666,12 +673,14 @@ pre tt:after {
   text-decoration: none;
 }
 
+/* footer */
 .footer {
   margin-top: auto;
   color: #BEBEBE;
   margin-bottom: 10px;
 }
 
+/* header */
 .header a {
   color: #BEBEBE;
   font-family: 'VT323', sans-serif;
