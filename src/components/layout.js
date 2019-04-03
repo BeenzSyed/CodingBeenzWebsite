@@ -19,12 +19,11 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <div class="main-container">
-          <Menu />
-          <Header siteTitle={data.site.siteMetadata.title} />
-          <main>{children}</main>
-          <footer class="footer">
-              © {new Date().getFullYear()} CodingBeenz
-          </footer>
+        <Menu />
+        <Header siteTitle={data.site.siteMetadata.title} />
+        {/* <main>{children}</main> */}
+        {children}
+        <footer class="footer">© {new Date().getFullYear()} CodingBeenz</footer>
       </div>
     )}
   />
