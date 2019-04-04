@@ -634,6 +634,10 @@ pre tt:after {
   color: #71637d;
 }
 
+.social-links li a:hover {
+  color: #551a8b;
+}
+
 /* setup page*/
 .uses-links a {
   color: #71637d;
@@ -673,6 +677,11 @@ pre tt:after {
   text-decoration: none;
 }
 
+.menu ul li a:hover {
+  color: #71637d;
+  border-bottom: 2px solid #551a8b;
+}
+
 /* footer */
 .footer {
   margin-top: auto;
@@ -687,18 +696,27 @@ pre tt:after {
   font-size: 60px;
 }
 
+.header a:hover {
+  color: #551a8b;
+}
+
 /* blog */
 .blog-posts {
   padding: 20px;
   margin: 20px;
   max-width: 650px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .blog-posts h3 a {
-  font-family: "Merriweather";
-  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: 900; */
   text-rendering: optimizeLegibility;
-  font-size: 1.4427rem;
-  line-height: 1.1;
-  color: #007acc;
+  /* font-size: 2rem; */
+  /* line-height: 1.1; */
+  color: #71637d;
+}
+
+.blog-posts h3 a:hover {
+  border-bottom: 2px solid #551a8b;
 }

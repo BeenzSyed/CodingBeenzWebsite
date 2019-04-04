@@ -12,7 +12,7 @@ module.exports = {
       options: {
         name: `pages`,
         path: `${__dirname}/src/pages`,
-      }
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -39,9 +39,12 @@ module.exports = {
       options: {
         fonts: [
           `Open Sans`,
-          `Montserrat`,
           `VT323`,
-        ]
+          {
+            family: `Montserrat`,
+            variants: [`400`, `900`],
+          },
+        ],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
