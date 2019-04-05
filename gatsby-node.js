@@ -17,13 +17,6 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               title
               date
               author
-              featuredImage {
-                childImageSharp {
-                  sizes(maxWidth: 630) {
-                    ...GatsbyImageSharpSizes
-                  }
-                }
-              }
             }
           }
         }
