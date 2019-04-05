@@ -1,10 +1,10 @@
-import React from 'react'
-import { graphql, StaticQuery } from 'gatsby'
-import styled from 'styled-components'
-import Img from 'gatsby-image'
+import React from "react"
+import { graphql, StaticQuery } from "gatsby"
+import styled from "styled-components"
+import Img from "gatsby-image"
 
-import BackgroundImage from 'gatsby-background-image'
-import { generateMedia } from 'styled-media-query'
+import BackgroundImage from "gatsby-background-image"
+import { generateMedia } from "styled-media-query"
 
 const media = generateMedia()
 
@@ -38,7 +38,7 @@ const BackgroundSection = ({ className, children }) => (
   <StaticQuery
     query={graphql`
       query {
-        desktop: file(relativePath: { eq: "sabeenlaptop.JPG" }) {
+        desktop: file(relativePath: { eq: "sabeenlaptop3.jpg" }) {
           childImageSharp {
             fluid(quality: 100, maxWidth: 4160) {
               ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -55,15 +55,15 @@ const BackgroundSection = ({ className, children }) => (
       return (
         <StyledWrapper>
           {/* <StyledSymetryWrapper> */}
-            <BackgroundImage
-              Tag="section"
-              className={className}
-              fluid={imageData}
-              backgroundColor={`#040e18`}
-              classId="gbi"
-            >
-              {children}
-            </BackgroundImage>
+          <BackgroundImage
+            Tag="section"
+            className={className}
+            fluid={imageData}
+            backgroundColor={`#040e18`}
+            classId="gbi"
+          >
+            {children}
+          </BackgroundImage>
           {/* </StyledSymetryWrapper> */}
           {/* <StyledSymetryWrapper>
             <StyledWelcomeImage fluid={imageData} backgroundColor="#040e18" />
@@ -95,7 +95,7 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   //background-size: cover;
   
   // With media-queries you sadly still have to use !important, for the moment.
-  // ${media.lessThan('large')`
+  // ${media.lessThan("large")`
   //   background-size: contain !important;
   //   &:after, &:before {
   //     background-size: contain !important;

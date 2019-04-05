@@ -1,3 +1,7 @@
+:root {
+  --dark-purple: #551a8b;
+  --light-purple: #71637d;
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -631,18 +635,18 @@ pre tt:after {
 }
 
 .social-links li a {
-  color: #71637d;
+  color: var(--light-purple);
 }
 
 .social-links li a:hover {
-  color: #551a8b;
+  color: var(--dark-purple);
 }
 
 /* setup page*/
 .uses-links a {
-  color: #71637d;
+  color: var(--light-purple);
   text-decoration: none;
-  border-bottom: 2px solid #551a8b;
+  border-bottom: 2px solid var(--dark-purple);
 }
 
 /* main container */
@@ -673,13 +677,14 @@ pre tt:after {
 
 .menu ul li a {
   color: #bebebe;
-  font-size: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
   text-decoration: none;
 }
 
 .menu ul li a:hover {
-  color: #71637d;
-  border-bottom: 2px solid #551a8b;
+  color: var(--light-purple);
+  border-bottom: 2px solid var(--dark-purple);
 }
 
 /* footer */
@@ -691,13 +696,13 @@ pre tt:after {
 
 /* header */
 .header a {
-  color: #bebebe;
-  font-family: "VT323", sans-serif;
-  font-size: 60px;
+  color: #8b008b;
+  font-family: "VT323", Impact;
+  font-size: 80px;
 }
 
 .header a:hover {
-  color: #551a8b;
+  color: var(--dark-purple);
 }
 
 /* blog */
@@ -714,9 +719,9 @@ pre tt:after {
   text-rendering: optimizeLegibility;
   /* font-size: 2rem; */
   /* line-height: 1.1; */
-  color: #71637d;
+  color: var(--light-purple);
 }
 
 .blog-posts h3 a:hover {
-  border-bottom: 2px solid #551a8b;
+  border-bottom: 2px solid var(--dark-purple);
 }
