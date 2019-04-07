@@ -1,9 +1,9 @@
 ---
 path: "/post-two"
-date: "2019-02-26"
+date: "2019-02-26T22:12:03.284Z"
 title: "Big O Part 2"
 author: "CodingBeenz"
-# featuredImage: "./featured-image.jpg"
+featuredImage: "./featured-image.jpg"
 ---
 
 Big O continued… Today let’s talk about O(log N). It gets a bit ‘mathy’ but stick with me. I’ve seen many interviewers ask questions about this topic.

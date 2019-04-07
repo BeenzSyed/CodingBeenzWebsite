@@ -1,9 +1,9 @@
 ---
 path: "/post-three"
-date: "2019-03-02"
+date: "2019-03-02T22:12:03.284Z"
 title: "Big O Part 3"
 author: "CodingBeenz"
-# featuredImage: "./featured-image.jpg"
+featuredImage: "./featured-image.jpg"
 ---
 
 Part 3 of the Big O notation! We'll review the ones we know - O(1), O(N) and O(log N) plus add some more.

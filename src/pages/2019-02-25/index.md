@@ -1,9 +1,9 @@
 ---
 path: "/post-one"
-date: "2019-02-25"
+date: "2019-02-25T22:12:03.284Z"
 title: "Big O Part 1"
 author: "CodingBeenz"
-# featuredImage: "./featured-image.jpg"
+featuredImage: "./featured-image.jpg"
 ---
 
 Let’s talk about Big O notation today. This subject is notoriously known to be confusing. I’m going to try and break it down to the main information that you need to know without making it too complex. This is going to cover 3 posts - today’s post will be an intro plus and explanation of O(1) and O(N).

@@ -41,7 +41,7 @@ export const pageQuery = graphql`
           frontmatter {
             path
             title
-            date
+            date(formatString: "DD MMMM, YYYY")
             author
             featuredImage {
               childImageSharp {
