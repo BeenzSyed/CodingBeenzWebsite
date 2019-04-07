@@ -15,8 +15,15 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
             frontmatter {
               path
               title
-              date
+              date(formatString: "DD MMMM, YYYY")
               author
+              featuredImage {
+                childImageSharp {
+                  sizes(maxWidth: 630) {
+                    ...GatsbyImageSharpSizes
+                  }
+                }
+              }
             }
           }
         }
