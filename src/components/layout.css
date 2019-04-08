@@ -657,6 +657,15 @@ pre tt:after {
   min-height: 100vh;
 }
 
+/* intro on about page */
+.about {
+  margin: 0 10%;
+  color: var(--dark-purple);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
 /* menu component */
 .menu {
   margin-top: 30px;
