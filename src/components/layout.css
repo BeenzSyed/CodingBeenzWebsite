@@ -739,3 +739,12 @@ pre tt:after {
   margin: 0 15%;
   max-width: 650px;
 }
+
+@media only screen and (max-width: 600px) {
+  .menu ul {
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    flex-flow: column;
+  }
+}
