@@ -707,7 +707,7 @@ pre tt:after {
 .header a {
   color: #8b008b;
   font-family: "VT323", Impact;
-  font-size: 80px;
+  font-size: 2em;
 }
 
 .header a:hover {
@@ -724,10 +724,7 @@ pre tt:after {
 
 .blog-posts h3 a {
   font-family: "Montserrat", sans-serif;
-  /* font-weight: 900; */
   text-rendering: optimizeLegibility;
-  /* font-size: 2rem; */
-  /* line-height: 1.1; */
   color: var(--light-purple);
 }
 
@@ -741,6 +738,12 @@ pre tt:after {
 }
 
 @media only screen and (max-width: 600px) {
+  .header a {
+    color: #8b008b;
+    font-family: "VT323", Impact;
+    font-size: 1em;
+  }
+
   .menu ul {
     display: flex;
     list-style: none;
