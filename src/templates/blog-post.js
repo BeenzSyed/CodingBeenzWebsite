@@ -2,19 +2,20 @@ import React from "react"
 import Link from "gatsby-link"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import Layout from "../components/layout"
 
 export default function Template({ data }) {
   const post = data.markdownRemark
 
   return (
-    <div>
-      <Link to="/blog">Go Back</Link>
-      <hr />
-      <h1>{post.frontmatter.title}</h1>
-      <h4>{post.frontmatter.date}</h4>
-      <Img sizes={post.frontmatter.featuredImage.childImageSharp.sizes} />
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
-    </div>
+    <Layout>
+      <div class="blog-post-template">
+        <h1>{post.frontmatter.title}</h1>
+        <h4>{post.frontmatter.date}</h4>
+        <Img sizes={post.frontmatter.featuredImage.childImageSharp.sizes} />
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      </div>
+    </Layout>
   )
 }
 

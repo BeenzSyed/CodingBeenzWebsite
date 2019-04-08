@@ -734,3 +734,8 @@ pre tt:after {
 .blog-posts h3 a:hover {
   border-bottom: 2px solid var(--dark-purple);
 }
+
+.blog-post-template {
+  margin: 0 15%;
+  max-width: 650px;
+}
