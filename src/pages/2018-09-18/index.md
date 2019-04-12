@@ -1,5 +1,5 @@
 ---
-path: "/post-auth-remote-server"
+path: "/post-auth-remote"
 date: "2018-09-18T22:12:03.284Z"
 title: "Authentication to a Remote Server using SSH keys"
 author: "CodingBeenz"
