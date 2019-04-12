@@ -10,7 +10,7 @@ export default function Template({ data }) {
   return (
     <Layout>
       <div class="blog-post-template">
-        <h1>{post.frontmatter.title}</h1>
+        <h2>{post.frontmatter.title}</h2>
         <h4>{post.frontmatter.date}</h4>
         <Img sizes={post.frontmatter.featuredImage.childImageSharp.sizes} />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
