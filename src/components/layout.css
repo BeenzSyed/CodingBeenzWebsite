@@ -697,7 +697,7 @@ pre tt:after {
 }
 
 .menu ul li a:hover {
-  color: var(--light-purple);
+  color: var(--dark-purple);
   border-bottom: 2px solid var(--dark-purple);
 }
 
