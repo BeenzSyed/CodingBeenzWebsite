@@ -739,6 +739,12 @@ pre tt:after {
   max-width: 650px;
 }
 
+/* about */
+.about a {
+  color: #8b008b;
+  border-bottom: 2px solid var(--dark-purple);
+}
+
 @media only screen and (max-width: 600px) {
   .header a {
     font-size: 1em;
